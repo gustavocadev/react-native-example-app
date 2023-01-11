@@ -23,6 +23,7 @@ const RootNavigator = () => {
                   variant="bodyLarge"
                   style={{
                     marginRight: 14,
+                    color: 'black',
                   }}
                 >
                   About

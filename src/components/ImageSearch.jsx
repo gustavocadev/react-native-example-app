@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { useEffect } from 'react';
-import { Keyboard, Touchable, View } from 'react-native';
+import { Keyboard, View } from 'react-native';
 import { getImages } from '../helpers/getImages';
-import { Text, Button, TextInput, Searchbar } from 'react-native-paper';
+import { Text, Button, Searchbar } from 'react-native-paper';
 
 const ImageSearch = ({ setUserSearch, userSearch, setImages }) => {
   const handleSubmit = async () => {
@@ -21,6 +20,7 @@ const ImageSearch = ({ setUserSearch, userSearch, setImages }) => {
         variant="displayMedium"
         style={{
           padding: 4,
+          color: 'black',
         }}
       >
         Search a Image
